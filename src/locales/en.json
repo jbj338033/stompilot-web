@@ -44,6 +44,7 @@
       "support": "24/7 support"
     },
     "testimonials": {
+      "title": "What Our Users Say",
       "testimonial1": {
         "name": "John Doe",
         "role": "Software Engineer",

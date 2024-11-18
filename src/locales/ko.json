@@ -1,7 +1,9 @@
 {
   "nav": {
     "docs": "문서",
-    "download": "다운로드"
+    "download": "다운로드",
+    "features": "기능",
+    "pricing": "가격"
   },
   "home": {
     "hero": {
@@ -22,8 +24,52 @@
       "intuitive": {
         "title": "직관적인 인터페이스",
         "description": "초보자와 숙련된 개발자 모두를 위한 사용자 친화적 인터페이스"
+      },
+      "customizable": {
+        "title": "사용자 정의 가능",
+        "description": "StomPilot을 쉽게 구성 및 사용자 정의하여 필요에 맞게 사용"
+      },
+      "secure": {
+        "title": "보안",
+        "description": "내장된 보안 기능으로 데이터를 안전하게 보호"
+      },
+      "cloud": {
+        "title": "클라우드 통합",
+        "description": "클라우드 서비스와 원활하게 통합하여 쉬운 배포 및 관리"
       }
-    }
+    },
+    "stats": {
+      "users": "1만 명 이상의 사용자",
+      "uptime": "99.9% 가동률",
+      "support": "24/7 지원"
+    },
+    "testimonials": {
+      "title": "사용자 평가",
+      "testimonial1": {
+        "name": "홍길동",
+        "role": "소프트웨어 엔지니어",
+        "initial": "저",
+        "content": "몇 달 동안 STOMPilot을 사용해왔는데, 우리 팀에게 큰 변화를 가져다 주었습니다. 실시간 통신 기능은 최고이며 성능도 뛰어납니다."
+      },
+      "testimonial2": {
+        "name": "김철수",
+        "role": "웹 개발자",
+        "initial": "저",
+        "content": "지난 몇 년 동안 몇 가지 다른 STOMP 클라이언트를 사용해봤지만, STOMPilot이 최고입니다. 직관적인 인터페이스로 초보자도 쉽게 사용할 수 있습니다."
+      },
+      "testimonial3": {
+        "name": "박영희",
+        "role": "프론트엔드 개발자",
+        "initial": "저",
+        "content": "STOMPilot은 사용하기 쉽고 성능이 우수합니다. 팀 프로젝트에서 사용하면서 실시간 통신 기능이 탁월하다는 것을 알게 되었습니다."
+      }
+    },
+    "cta": {
+      "title": "지금 시작하세요",
+      "subtitle": "StomPilot을 다운로드하고 몇 분 안에 시작하세요",
+      "button": "지금 다운로드"
+    },
+    "scroll": "스크롤하여 탐색"
   },
   "download": {
     "title": "StomPilot 다운로드",
