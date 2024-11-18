@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "docs": "Documentation",
+    "download": "Download",
+    "features": "Features",
+    "pricing": "Pricing"
+  },
+  "home": {
+    "hero": {
+      "title": "Your Modern STOMP Client",
+      "subtitle": "A powerful, intuitive WebSocket messaging client for developers",
+      "download": "Download Now"
+    },
+    "features": {
+      "title": "Features",
+      "realtime": {
+        "title": "Real-time Communication",
+        "description": "Connect and communicate with WebSocket servers in real-time with STOMP protocol support"
+      },
+      "performance": {
+        "title": "High Performance",
+        "description": "Optimized for handling high message volumes with minimal resource usage"
+      },
+      "intuitive": {
+        "title": "Intuitive Interface",
+        "description": "User-friendly interface designed for both beginners and experienced developers"
+      },
+      "customizable": {
+        "title": "Customizable",
+        "description": "Easily configure and customize StomPilot to suit your needs"
+      },
+      "secure": {
+        "title": "Secure",
+        "description": "Keep your data safe with built-in security features"
+      },
+      "cloud": {
+        "title": "Cloud Integration",
+        "description": "Seamlessly integrate with cloud services for easy deployment and management"
+      }
+    },
+    "stats": {
+      "users": "Over 10,000 users",
+      "uptime": "99.9% uptime",
+      "support": "24/7 support"
+    },
+    "testimonials": {
+      "testimonial1": {
+        "name": "John Doe",
+        "role": "Software Engineer",
+        "initial": "I",
+        "content": "I've been using STOMPilot for a few months now and it's been a game-changer for our team. The real-time communication features are top-notch and the performance is unmatched."
+      },
+      "testimonial2": {
+        "name": "Jane Smith",
+        "role": "Web Developer",
+        "initial": "I",
+        "content": "I've tried a few different STOMP clients in the past, but STOMPilot is by far the best. The intuitive interface makes it easy to use, even for beginners."
+      },
+      "testimonial3": {
+        "name": "Alex Johnson",
+        "role": "CTO",
+        "initial": "We",
+        "content": "We've been using STOMPilot for our internal messaging system and it's been a great experience. The customizable features allow us to tailor the client to our specific needs."
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Download StomPilot and start messaging in minutes",
+      "button": "Download Now"
+    },
+    "scroll": "Scroll to explore"
+  },
+  "download": {
+    "title": "Download StomPilot",
+    "subtitle": "Choose your platform and start messaging in minutes",
+    "button": "Download for {platform}",
+    "windows": {
+      "description": "Windows 10/11 64-bit installer"
+    },
+    "mac": {
+      "description": "Universal binary for Intel and Apple Silicon"
+    },
+    "requirements": {
+      "title": "System Requirements",
+      "windows": "Windows 10 or later (64-bit)",
+      "mac": "macOS 10.15 or later",
+      "memory": "Minimum 4GB RAM"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "sections": {
+      "getting-started": {
+        "title": "Getting Started",
+        "intro": "Learn how to install and set up StomPilot",
+        "installation": {
+          "title": "Installation",
+          "description": "Follow these steps to install StomPilot:",
+          "steps": "1. Download the installer\n2. Run the installer\n3. Follow the setup wizard"
+        }
+      },
+      "features": {
+        "title": "Features",
+        "intro": "Explore StomPilot's powerful features"
+      },
+      "api": {
+        "title": "API Reference",
+        "intro": "Detailed API documentation"
+      },
+      "configuration": {
+        "title": "Configuration",
+        "intro": "Learn about configuration options"
+      }
+    }
+  }
+}
