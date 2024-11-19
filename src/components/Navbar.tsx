@@ -11,11 +11,12 @@ import {
   IoSunny,
 } from "react-icons/io5";
 import logo from "../assets/icon.png";
+import { useThemeStore } from "../stores/theme";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDark, setIsDark] = useState(false);
+  const { isDark, toggleTheme } = useThemeStore();
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
@@ -31,11 +32,6 @@ const Navbar = () => {
   useEffect(() => {
     setIsMenuOpen(false);
   }, [location]);
-
-  const toggleTheme = () => {
-    setIsDark(!isDark);
-    document.documentElement.classList.toggle("dark");
-  };
 
   const NavLink = ({
     to,
@@ -94,7 +90,7 @@ const Navbar = () => {
                 animate={{ x: 0, opacity: 1 }}
                 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent"
               >
-                STOMPilot
+                Stompilot
               </motion.span>
             </Link>
           </div>

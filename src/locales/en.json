@@ -81,6 +81,9 @@
     "mac": {
       "description": "Universal binary for Intel and Apple Silicon"
     },
+    "linux": {
+      "description": "Linux installation script"
+    },
     "requirements": {
       "title": "System Requirements",
       "windows": "Windows 10 or later (64-bit)",

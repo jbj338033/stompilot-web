@@ -20,7 +20,7 @@ const Download = () => {
       size: "72.3 MB",
       icon: IoLogoApple,
       description: t("download.mac.description"),
-      url: "https://github.com/jbj338033/stompilot-app/releases/latest/download/Stompilot.dmg",
+      url: "/Stompilot.dmg",
     },
     {
       platform: "Linux",

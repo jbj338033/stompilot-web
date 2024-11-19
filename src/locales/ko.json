@@ -81,6 +81,9 @@
     "mac": {
       "description": "Intel 및 Apple Silicon용 범용 바이너리"
     },
+    "linux": {
+      "description": "Linux 설치 스크립트"
+    },
     "requirements": {
       "title": "시스템 요구사항",
       "windows": "Windows 10 이상 (64비트)",
