@@ -15,7 +15,6 @@ import {
 } from "react-icons/io5";
 
 const Docs = () => {
-  const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState("getting-started");
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 

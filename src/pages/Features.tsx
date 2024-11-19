@@ -15,7 +15,7 @@ import {
 } from "react-icons/io5";
 
 const Features = () => {
-  const [selectedDemo, setSelectedDemo] = useState<string | null>(null);
+  const [, setSelectedDemo] = useState<string | null>(null);
 
   // Demo 상태를 관리하는 상태 변수들
   const [isConnected, setIsConnected] = useState(false);
