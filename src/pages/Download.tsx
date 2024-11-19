@@ -12,7 +12,7 @@ const Download = () => {
       size: "68.5 MB",
       icon: IoLogoWindows,
       description: t("download.windows.description"),
-      filename: "stompilot-setup-1.0.0.exe",
+      url: "https://github.com/jbj338033/stompilot-app/releases/latest/download/Stompilot.exe",
     },
     {
       platform: "macOS",
@@ -20,7 +20,15 @@ const Download = () => {
       size: "72.3 MB",
       icon: IoLogoApple,
       description: t("download.mac.description"),
-      filename: "StomPilot-1.0.0.dmg",
+      url: "https://github.com/jbj338033/stompilot-app/releases/latest/download/Stompilot.dmg",
+    },
+    {
+      platform: "Linux",
+      version: "1.0.0",
+      size: "78.4 MB",
+      icon: IoLogoWindows,
+      description: t("download.linux.description"),
+      url: "https://github.com/jbj338033/stompilot-app/releases/latest/download/Stompilot.AppImage",
     },
   ];
 
@@ -69,15 +77,13 @@ const Download = () => {
                 {item.description}
               </p>
 
-              <button
-                onClick={() =>
-                  (window.location.href = `/downloads/${item.filename}`)
-                }
+              <a
+                href={item.url}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg transition-colors flex items-center justify-center space-x-2"
               >
                 <IoDownload className="text-xl" />
                 <span>{t("download.button", { platform: item.platform })}</span>
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>

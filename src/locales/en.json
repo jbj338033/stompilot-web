@@ -66,7 +66,7 @@
     },
     "cta": {
       "title": "Ready to get started?",
-      "description": "Download StomPilot and start messaging in minutes",
+      "description": "Download STOMPilot and start messaging in minutes",
       "button": "Download Now"
     },
     "scroll": "Scroll to explore"
@@ -74,7 +74,7 @@
   "download": {
     "title": "Download StomPilot",
     "subtitle": "Choose your platform and start messaging in minutes",
-    "button": "Download for {platform}",
+    "button": "Download for {{platform}}",
     "windows": {
       "description": "Windows 10/11 64-bit installer"
     },
